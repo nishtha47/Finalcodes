@@ -11,6 +11,9 @@ Inputs to provide
 
 In output it will ask for
 File:- example1.txt is hardcoded in a Java code.
+
+Provide the exmaple1.txt path in a java code which you can place in your local.
+
 Example:
 
 Scenario 1:
