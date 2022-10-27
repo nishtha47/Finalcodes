@@ -106,7 +106,7 @@ import java.util.Scanner;
 	                
 	                if (Arrays.toString(arry2).contains(s1) && Arrays.toString(arry2).contains(s2)) {
 	                    flag = true;
-	                    System.out.printf ("What's the matter with you?\n");
+	                    System.out.printf ("Best plan for you\n");
 
 	                // plan(1,4) -> $100
 	              
@@ -238,7 +238,7 @@ import java.util.Scanner;
 	                    System.out.println(Arrays.toString(arry4));
 	                  
 	                //nput3.nextLine()
-	                System.out.println("What type of services would you like?");
+	                System.out.println("Enter all 4 services like?");
 	                System.out.println("1. Voice");
 	                System.out.println("2. Database");
 	                System.out.println("3. Admin");
@@ -258,7 +258,7 @@ import java.util.Scanner;
 	               // {
 	                if (Arrays.toString(arry4).contains(s41) && Arrays.toString(arry4).contains(s42) && Arrays.toString(arry4).contains(s43) && Arrays.toString(arry4).contains(s44)) {
 	                    flag = true;
-	                    System.out.printf ("What's the matter with you?\n");
+	                    System.out.printf ("Best plan for you\n");
 	                    
 	                //    int price;
 	                    System.out.println("enter choice for 4 services");
