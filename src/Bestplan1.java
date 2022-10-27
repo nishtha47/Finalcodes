@@ -27,7 +27,7 @@ import java.util.Scanner;
 	    public static void main(String args[]) throws IOException {
 	 
 	        //creating File instance to reference text file in Java
-	        File text = new File("/Bestplanread/src/main/java/resources/example1.txt");
+	        File text = new File("C:\\Users\\NISHTHA MISHRA\\OneDrive\\Desktop\\ChallengeTest\\bestplanproject\\Finalcodes\\src\\example1.txt");
 	     
 	        //Creating Scanner instance to read File in Java\
 	        boolean flag = false;
@@ -81,7 +81,7 @@ import java.util.Scanner;
 	                System.out.println("what is the file path");
 	                String text2 = "";
 	                try{
-	                    scn = new Scanner(new File("C:\\Users\\NISHTHA MISHRA\\eclipse-workspace\\Bestplanread\\src\\main\\java\\resources\\example1.txt"));
+	                    scn = new Scanner(new File("C:\\Users\\NISHTHA MISHRA\\OneDrive\\Desktop\\ChallengeTest\\bestplanproject\\Finalcodes\\src\\example1.txt"));
 	                }catch(FileNotFoundException ex){System.out.println(ex.getMessage());}
 	                while(scn.hasNext()){
 	                    text2 += scn.next();
@@ -137,7 +137,7 @@ import java.util.Scanner;
 	                System.out.println("what is the file path");
 	                String text1 = "";
 	                try{
-	                    scn = new Scanner(new File("C:\\Users\\NISHTHA MISHRA\\eclipse-workspace\\Bestplanread\\src\\main\\java\\resources\\example1.txt"));
+	                    scn = new Scanner(new File("C:\\Users\\NISHTHA MISHRA\\OneDrive\\Desktop\\ChallengeTest\\bestplanproject\\Finalcodes\\src\\example1.txt"));
 	                }catch(FileNotFoundException ex){System.out.println(ex.getMessage());}
 	                while(scn.hasNext()){
 	                    text1 += scn.next();
@@ -228,7 +228,7 @@ import java.util.Scanner;
 	                System.out.println("what is the file path");
 	                String text4 = "";
 	                try{
-	                    scn = new Scanner(new File("C:\\Users\\NISHTHA MISHRA\\eclipse-workspace\\Bestplanread\\src\\main\\java\\resources\\example1.txt"));
+	                    scn = new Scanner(new File("C:\\Users\\NISHTHA MISHRA\\OneDrive\\Desktop\\ChallengeTest\\bestplanproject\\Finalcodes\\src\\example1.txt"));
 	                }catch(FileNotFoundException ex){System.out.println(ex.getMessage());}
 	                while(scn.hasNext()){
 	                    text4 += scn.next();
